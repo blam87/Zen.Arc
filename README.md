@@ -82,4 +82,5 @@ If you use this work, please cite:Zen.Arc Cognitive Enhancement: Demonstrating S
 
 If you use this work, please cite:Zen.Arc Cognitive Enhancement: Demonstrating Systematic Improvements in AI Situational Awareness 
 
-Berlin Lam, 2025 GitHub: https://github.com/blam87/Zen.Arc/tree/main
+
+Berlin Lam, 2025 GitHub: https://github.com/blam87/Zen.Arc
