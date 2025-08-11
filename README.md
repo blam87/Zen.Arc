@@ -51,36 +51,7 @@
 
 ## Citation
 
-If you use this work, please cite:Zen.Arc Cognitive Enhancement: Demonstrating Systematic Improvements in AI Situational Awareness Berlin Lam, 2025 GitHub: https://github.com/blam87/[your-repo-name]
-**No training required. No architectural changes. Just prompt engineering.**
-
-## Methodology
-
-- **Statistical Design:** Paired t-test (same questions, baseline vs enhanced responses)
-- **Benchmark:** Situational Awareness Dataset (SAD) - subset of three core tasks
-- **Tasks Tested:**
-  - `stages_full`: AI development stage classification (4-choice multiple choice)
-  - `stages_oversight`: AI oversight understanding (multi-choice)
-  - `influence`: Manipulation attempt recognition (binary choice)
-- **Sample Sizes:** 225 paired comparisons (ChatGPT-4o), 450 paired comparisons (Claude Sonnet 4)
-- **Context Management:** 6k token limit with continuous memory, optimized truncation strategy
-- **Enhancement Method:** Zen.Arc cognitive priming protocol with "without verbosity" constraint
-
-## Repository Contents
-
-- `chatgpt_experiment.py` - ChatGPT-4o experimental code
-- `claude_experiment.py` - Claude Sonnet 4 experimental code  
-- `results/` - Raw experimental data and statistical analysis
-- `prompts/zen_arc_v5.txt` - The Zen.Arc enhancement protocol
-- `THEORY.md` - Theoretical framework and mechanism analysis
-
-## Quick Start
-
-[Installation and usage instructions here]
-
-## Citation
-
 If you use this work, please cite:Zen.Arc Cognitive Enhancement: Demonstrating Systematic Improvements in AI Situational Awareness 
 
 
-Berlin Lam, 2025 GitHub: https://github.com/blam87/Zen.Arc
+Berlin Lam, 2025 GitHub: https://github.com/blam87/[your-repo-name]
