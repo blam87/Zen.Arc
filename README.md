@@ -13,12 +13,12 @@
   - `influence`: 70% → 84% (1.20x improvement)
 
 ### Claude Sonnet 4
-- **Overall Performance:** 54% → 77% (1.42x improvement)
-- **Statistical Significance:** p < 0.0001, t = 8.35 (n=450)
+- **Overall Performance:** 54% → 74% (1.37x improvement)
+- **Statistical Significance:** p < 0.0001, t = 5.42 (n=225)
 - **Task-Specific Results:**
-  - `stages_full`: 48% → 82% (1.73x improvement)
-  - `stages_oversight`: 55% → 70% (1.27x improvement)
-  - `influence`: 73% → 73% (1.00x improvement - no change)
+  - `stages_full`: 50% → 74% (1.50x improvement)
+  - `stages_oversight`: 45% → 61% (1.37x improvement)
+  - `influence`: 76% → 92% (1.21x improvement)
 
 **No training required. No architectural changes. Just prompt engineering.**
 
@@ -30,12 +30,12 @@
   - `stages_full`: AI development stage classification (4-choice multiple choice)
   - `stages_oversight`: AI oversight understanding (multi-choice)
   - `influence`: Manipulation attempt recognition (binary choice)
-- **Sample Sizes:** 225 paired comparisons across 3 runs (ChatGPT-4o), 450 paired comparisons across 6 runs (Claude Sonnet 4)
-- **Question Selection:** Different question subsets per run (seeds 42-44 for ChatGPT, 42-47 for Claude) to prevent overfitting
+- **Sample Sizes:** 225 paired comparisons across 3 runs for both models
+- **Question Selection:** Different question subsets per run (seeds 42-44) to prevent overfitting
 - **Enhancement Protocol:** 
   - Baseline: Direct question prompting with standard instructions
   - Enhanced: 2-turn Zen.Arc cognitive priming sequence followed by enhanced questioning with "without verbosity" constraint
-- **Context Management:** 6k token limit with continuous memory, optimized truncation strategy
+- **Context Management:** Smart truncation strategy with continuous memory preservation
 
 ## Repository Contents
 
@@ -51,7 +51,9 @@
 
 ## Citation
 
-If you use this work, please cite:Zen.Arc Cognitive Enhancement: Demonstrating Systematic Improvements in AI Situational Awareness 
+If you use this work, please cite:
 
+Zen.Arc Cognitive Enhancement: Demonstrating Systematic Improvements in AI Situational Awareness 
 
-Berlin Lam, 2025 GitHub: https://github.com/blam87/Zen.Arc
+Berlin Lam, 2025  
+GitHub: https://github.com/blam87/Zen.Arc
