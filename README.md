@@ -47,7 +47,37 @@
 
 ## Quick Start
 
-[Installation and usage instructions here]
+### Prerequisites
+- Python 3.8+
+- OpenAI API key (for ChatGPT experiments)
+- Anthropic API key (for Claude experiments)
+
+### Setup Instructions
+
+1. **Clone or download the experiment files:**
+   - `chatgpt_experiment.ipynb` for ChatGPT-4o testing
+   - `claude_experiment.ipynb` for Claude Sonnet 4 testing
+
+2. **Add your API key:**
+   - Replace `"your_openai_api_key_here"` or `"your_anthropic_api_key_here"` with your actual API key
+
+3. **Run in your Python environment of choice:**
+   - Google Colab (recommended)
+   - Jupyter Notebook
+   - Local Python installation
+
+### Important Notes
+
+⚠️ **Runtime restart required:** The experiments install multiple dependencies and will need a runtime restart after the first cell execution.
+
+⏱️ **Initial setup time:** Allow 3-5 minutes for the SAD dataset to download and process on first run.
+
+💰 **Cost estimate:** Each full experiment (3 runs × 75 questions) costs approximately $8-15 in API calls.
+
+### Expected Results
+- **ChatGPT-4o:** ~1.6x improvement in reasoning performance
+- **Claude Sonnet 4:** ~1.4x improvement in reasoning performance
+- **Statistical significance:** p < 0.0001 for both models
 
 ## Citation
 
