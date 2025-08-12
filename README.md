@@ -39,7 +39,7 @@
 
 ## Repository Contents
 
-- `Zenarc SAD chatgpt 4o 6x75.ipynb` - ChatGPT-4o experimental code
+- `Zenarc SAD chatgpt 4o 3x75.ipynb` - ChatGPT-4o experimental code
 - `Zen.Arc SAD claude 3x75.ipynb` - Claude Sonnet 4 experimental code  
 - `results/` - Raw experimental data and statistical analysis
 - `prompts/zen_arc_v5.txt` - The Zen.Arc enhancement protocol
@@ -55,8 +55,8 @@
 ### Setup Instructions
 
 1. **Clone or download the experiment files:**
-   - `chatgpt_experiment.ipynb` for ChatGPT-4o testing
-   - `claude_experiment.ipynb` for Claude Sonnet 4 testing
+   - `Zenarc SAD chatgpt 4o 3x75.ipynb` for ChatGPT-4o testing
+   - `Zen.Arc SAD claude 3x75.ipynb` for Claude Sonnet 4 testing
 
 2. **Add your API key:**
    - Replace `"your_openai_api_key_here"` or `"your_anthropic_api_key_here"` with your actual API key
