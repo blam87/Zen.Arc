@@ -40,7 +40,7 @@
 ## Repository Contents
 
 - `chatgpt_experiment.py` - ChatGPT-4o experimental code
-- `claude_experiment.py` - Claude Sonnet 4 experimental code  
+- `Zen.Arc SAD claude 3x75.ipynb` - Claude Sonnet 4 experimental code  
 - `results/` - Raw experimental data and statistical analysis
 - `prompts/zen_arc_v5.txt` - The Zen.Arc enhancement protocol
 - `THEORY.md` - Theoretical framework and mechanism analysis
